@@ -9,7 +9,7 @@ No CUDA or NVML dependencies required.
 
 Download the source code: 
 
-`wget https://raw.githubusercontent.com/yourusername/findrops/main/findrops.cpp`
+`wget https://raw.githubusercontent.com/low-pe/findrops/main/findrops.cpp`
 
 Compile it using g++: 
 
@@ -18,3 +18,6 @@ Compile it using g++:
 Run the tool (you may need sudo for access to /dev/nvidia*): 
 
 `./findrops`
+
+Easy one-liner to do all the steps:
+`wget -q https://raw.githubusercontent.com/low-pe/findrops/main/findrops.cpp && g++ -o findrops findrops.cpp && ./findrops`
